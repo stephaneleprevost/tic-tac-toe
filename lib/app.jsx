@@ -53,9 +53,9 @@ var Row = React.createClass({
   'render': function onRender () {
     return (
 	<div>
-	<Box initialValue=getInitialState/>
-	<Box initialValue=getInitialState/>
-	<Box initialValue=getInitialState/>
+	<Box initialValue='-'/>
+	<Box initialValue='-'/>
+	<Box initialValue='-'/>
 	</div>
 
     );
