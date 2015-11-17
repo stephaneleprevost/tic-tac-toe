@@ -2,6 +2,10 @@
 
 var React = require('react');
 
+var ButtonStyle = {
+'width':'100px',
+'height' :'100px'
+};
 var Box = React.createClass({
   /**
    * Render a HTML button
@@ -9,9 +13,9 @@ var Box = React.createClass({
    */
   'render': function onRender () {
     return (
-      <button>{this.props.value}</button>
+      <button style={ButtonStyle}>{this.props.value}</button>
     );
   }
 });
 
-React.render(<Box value ='X'/>, document.body);
+React.render(<Box value='X'/>, document.body);
